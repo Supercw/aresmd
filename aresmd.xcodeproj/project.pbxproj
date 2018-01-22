@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C919652015D81000D53D3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C919642015D81000D53D3D /* AppDelegate.m */; };
+		09C919672015D81000D53D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C919662015D81000D53D3D /* Assets.xcassets */; };
+		09C9196D2015D81000D53D3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9196C2015D81000D53D3D /* main.m */; };
+		09C919752015DAD200D53D3D /* RootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C919742015DAD200D53D3D /* RootController.m */; };
+		09C9197E2015DC9C00D53D3D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C9197D2015DC9C00D53D3D /* LoginController.m */; };
+		09C919802015DCD000D53D3D /* login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C9197F2015DCD000D53D3D /* login.xib */; };
+		09C919852015EB0E00D53D3D /* LoginCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C919842015EB0E00D53D3D /* LoginCheck.m */; };
+		09C919882015EC0800D53D3D /* AppAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C919872015EC0800D53D3D /* AppAlert.m */; };
+		2609C2EAE8EE5EB0AFE5D99C /* libPods-aresmd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 743EE0BE79BAB714A28CDC94 /* libPods-aresmd.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049C2CA76889ABB5629E7AA8 /* Pods-aresmd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aresmd.release.xcconfig"; path = "Pods/Target Support Files/Pods-aresmd/Pods-aresmd.release.xcconfig"; sourceTree = "<group>"; };
+		09C919602015D81000D53D3D /* aresmd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aresmd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C919632015D81000D53D3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09C919642015D81000D53D3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09C919662015D81000D53D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C9196B2015D81000D53D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C9196C2015D81000D53D3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C919732015DAD200D53D3D /* RootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		09C919742015DAD200D53D3D /* RootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		09C9197C2015DC9C00D53D3D /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		09C9197D2015DC9C00D53D3D /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		09C9197F2015DCD000D53D3D /* login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = login.xib; sourceTree = "<group>"; };
+		09C919812015E07200D53D3D /* aresmd.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aresmd.pch; sourceTree = "<group>"; };
+		09C919822015E33200D53D3D /* AppStrConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppStrConstants.h; path = aresmd/Classes/AppStrConstants.h; sourceTree = SOURCE_ROOT; };
+		09C919832015EB0E00D53D3D /* LoginCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginCheck.h; sourceTree = "<group>"; };
+		09C919842015EB0E00D53D3D /* LoginCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginCheck.m; sourceTree = "<group>"; };
+		09C919862015EC0800D53D3D /* AppAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppAlert.h; sourceTree = "<group>"; };
+		09C919872015EC0800D53D3D /* AppAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppAlert.m; sourceTree = "<group>"; };
+		743EE0BE79BAB714A28CDC94 /* libPods-aresmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aresmd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF98EFD9A360FC25293E4760 /* Pods-aresmd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aresmd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aresmd/Pods-aresmd.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C9195D2015D81000D53D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2609C2EAE8EE5EB0AFE5D99C /* libPods-aresmd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C919572015D81000D53D3D = {
+			isa = PBXGroup;
+			children = (
+				09C919622015D81000D53D3D /* aresmd */,
+				09C919612015D81000D53D3D /* Products */,
+				D8BE476364DA3480C7704CFA /* Pods */,
+				83DDE74AF293F00F1F109219 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09C919612015D81000D53D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C919602015D81000D53D3D /* aresmd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C919622015D81000D53D3D /* aresmd */ = {
+			isa = PBXGroup;
+			children = (
+				09C919762015DC7C00D53D3D /* Classes */,
+				09C919632015D81000D53D3D /* AppDelegate.h */,
+				09C919642015D81000D53D3D /* AppDelegate.m */,
+				09C919662015D81000D53D3D /* Assets.xcassets */,
+				09C9196B2015D81000D53D3D /* Info.plist */,
+				09C9196C2015D81000D53D3D /* main.m */,
+				09C919812015E07200D53D3D /* aresmd.pch */,
+			);
+			path = aresmd;
+			sourceTree = "<group>";
+		};
+		09C919762015DC7C00D53D3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09C919772015DC7C00D53D3D /* NetWork */,
+				09C919782015DC7C00D53D3D /* Application */,
+				09C919792015DC7C00D53D3D /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		09C919772015DC7C00D53D3D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		09C919782015DC7C00D53D3D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				09C919822015E33200D53D3D /* AppStrConstants.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		09C919792015DC7C00D53D3D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				09C9197A2015DC7C00D53D3D /* Homepage */,
+				09C9197B2015DC7C00D53D3D /* LoginPage */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		09C9197A2015DC7C00D53D3D /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				09C919732015DAD200D53D3D /* RootController.h */,
+				09C919742015DAD200D53D3D /* RootController.m */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		09C9197B2015DC7C00D53D3D /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				09C9197C2015DC9C00D53D3D /* LoginController.h */,
+				09C9197D2015DC9C00D53D3D /* LoginController.m */,
+				09C9197F2015DCD000D53D3D /* login.xib */,
+				09C919832015EB0E00D53D3D /* LoginCheck.h */,
+				09C919842015EB0E00D53D3D /* LoginCheck.m */,
+				09C919862015EC0800D53D3D /* AppAlert.h */,
+				09C919872015EC0800D53D3D /* AppAlert.m */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		83DDE74AF293F00F1F109219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				743EE0BE79BAB714A28CDC94 /* libPods-aresmd.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8BE476364DA3480C7704CFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF98EFD9A360FC25293E4760 /* Pods-aresmd.debug.xcconfig */,
+				049C2CA76889ABB5629E7AA8 /* Pods-aresmd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C9195F2015D81000D53D3D /* aresmd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C919702015D81000D53D3D /* Build configuration list for PBXNativeTarget "aresmd" */;
+			buildPhases = (
+				7D22C28780E5B16EE2EC9048 /* [CP] Check Pods Manifest.lock */,
+				09C9195C2015D81000D53D3D /* Sources */,
+				09C9195D2015D81000D53D3D /* Frameworks */,
+				09C9195E2015D81000D53D3D /* Resources */,
+				C589D4F09A31479688B082C0 /* [CP] Embed Pods Frameworks */,
+				A7F18B79A3E13657E52976FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aresmd;
+			productName = aresmd;
+			productReference = 09C919602015D81000D53D3D /* aresmd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C919582015D81000D53D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Retina;
+				TargetAttributes = {
+					09C9195F2015D81000D53D3D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09C9195B2015D81000D53D3D /* Build configuration list for PBXProject "aresmd" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C919572015D81000D53D3D;
+			productRefGroup = 09C919612015D81000D53D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C9195F2015D81000D53D3D /* aresmd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C9195E2015D81000D53D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C919672015D81000D53D3D /* Assets.xcassets in Resources */,
+				09C919802015DCD000D53D3D /* login.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D22C28780E5B16EE2EC9048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aresmd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F18B79A3E13657E52976FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-aresmd/Pods-aresmd-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aresmd/Pods-aresmd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C589D4F09A31479688B082C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aresmd/Pods-aresmd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C9195C2015D81000D53D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C919752015DAD200D53D3D /* RootController.m in Sources */,
+				09C9197E2015DC9C00D53D3D /* LoginController.m in Sources */,
+				09C919882015EC0800D53D3D /* AppAlert.m in Sources */,
+				09C9196D2015D81000D53D3D /* main.m in Sources */,
+				09C919652015D81000D53D3D /* AppDelegate.m in Sources */,
+				09C919852015EB0E00D53D3D /* LoginCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09C9196E2015D81000D53D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09C9196F2015D81000D53D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C919712015D81000D53D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF98EFD9A360FC25293E4760 /* Pods-aresmd.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/aresmd/aresmd.pch/";
+				INFOPLIST_FILE = aresmd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Health.aresmd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C919722015D81000D53D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049C2CA76889ABB5629E7AA8 /* Pods-aresmd.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/aresmd/aresmd.pch/";
+				INFOPLIST_FILE = aresmd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Health.aresmd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C9195B2015D81000D53D3D /* Build configuration list for PBXProject "aresmd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C9196E2015D81000D53D3D /* Debug */,
+				09C9196F2015D81000D53D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C919702015D81000D53D3D /* Build configuration list for PBXNativeTarget "aresmd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C919712015D81000D53D3D /* Debug */,
+				09C919722015D81000D53D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C919582015D81000D53D3D /* Project object */;
+}
